@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Happy Guide</string>
+
+
+    <string name="google_ads_application_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="google_ads_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="google_ads_native_id">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="google_ads_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+
+
+    <string name="textStart">Start</string>
+    <string name="textShare">Share</string>
+    <string name="textRate">Rate</string>
+    <string name="text_nav_home">Home</string>
+    <string name="text_nav_search">Search</string>
+    <string name="text_nav_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_find_fav">Find Your\nFavorite Tips</string>
+    <string name="text_search">Search</string>
+    <string name="text_nav_favorite">Favorites</string>
+
+
+    <string name="title_test">Prehistory and antiquity and Prehistory and antiquity</string>
+    <string name="content_test">Morocco, a North African country bordering the Atlantic Ocean and Mediterranean Sea, is distinguished by its Berber, Arabian and European cultural influences. Marrakesh’s medina, a mazelike medieval quarter, offers entertainment in its Djemaa el-Fna square and souks (marketplaces) selling ceramics, jewelry and metal lanterns. The capital Rabat’s Kasbah of the Udayas is a 12th-century royal fort overlooking the water</string>
+    <string name="text_another_tips">Another Tips</string>
+    <string name="text_view_all">View All</string>
+    <string name="text_filter">Filter By</string>
+    <string name="text_filter_new_date">New Date</string>
+    <string name="text_filter_last_date">Last Date</string>
+    <string name="text_filter_best_rate">Best Rate</string>
+    <string name="text_filter_low_rate">Low Rate</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_test_large">Use the provided SDK methods to capture the email address and phone number when provided. Follow the channel quickstart guides for setup</string>
+    <string name="text_no_notifications">No Notifications</string>
+    <string name="text_no_favorite">No Favorites</string>
+    <string name="text_settings">Settings</string>
+    <string name="text_privacy_policy">Privacy Policy</string>
+    <string name="text_terms_conditions">Terms Conditions</string>
+    <string name="text_contact_us">Contact Us</string>
+    <string name="text_sw_theme">App Theme</string>
+    <string name="text_sw_notifications">Enable Notifications</string>
+    <string name="text_setting_text_size">Content Text Size</string>
+    <string name="text_your_name">Your name</string>
+    <string name="text_your_email">Your email</string>
+    <string name="text_send">Send</string>
+    <string name="text_your_msg">How can we help you?</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="text_dialog_rating">Please give us 5-star</string>
+    <string name="textRateNow">Rate Now</string>
+    <string name="textTryAgain">Try Again</string>
+    <string name="text_no_internet">Please check your internet connection and try again.</string>
+
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/colorBgNav"
+    app:cardCornerRadius="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextMainGrey"
+            android:text="@string/text_filter"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/tommy"
+            android:textSize="18sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_margin="10dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+            <RadioButton
+                android:id="@+id/radioNewDate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:background="@drawable/bg_card_tips"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/text_filter_new_date"
+                android:fontFamily="@font/tommy"
+                android:textSize="16sp"
+                android:textColor="@color/colorTextMainGrey"
+                android:checked="true"
+                android:buttonTint="@color/colorTextMainGrey"/>
+
+            <RadioButton
+                android:id="@+id/radioLastDate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:background="@drawable/bg_card_tips"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/text_filter_last_date"
+                android:fontFamily="@font/tommy"
+                android:textSize="16sp"
+                android:textColor="@color/colorTextMainGrey"
+                android:checked="false"
+                android:buttonTint="@color/colorTextMainGrey"/>
+
+            <RadioButton
+                android:id="@+id/radioBestRate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:background="@drawable/bg_card_tips"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/text_filter_best_rate"
+                android:fontFamily="@font/tommy"
+                android:textSize="16sp"
+                android:textColor="@color/colorTextMainGrey"
+                android:checked="false"
+                android:buttonTint="@color/colorTextMainGrey"/>
+
+            <RadioButton
+                android:id="@+id/radioLowRate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:background="@drawable/bg_card_tips"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/text_filter_low_rate"
+                android:fontFamily="@font/tommy"
+                android:textSize="16sp"
+                android:textColor="@color/colorTextMainGrey"
+                android:checked="false"
+                android:buttonTint="@color/colorTextMainGrey"/>
+
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_text_size_min">3sp</dimen>
+    <dimen name="content_text_size_moy">5sp</dimen>
+    <dimen name="content_text_size_max">10sp</dimen>
+
+</resources>

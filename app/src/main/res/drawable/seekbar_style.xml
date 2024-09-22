@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/secondaryProgress">
+
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorGrey"/>
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@android:color/transparent"/>
+    </item>
+</layer-list>
